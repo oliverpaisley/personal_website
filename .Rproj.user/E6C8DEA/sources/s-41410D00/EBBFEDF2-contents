@@ -1,10 +1,10 @@
 author = "Oliver Paisley"
-baseurl = "https://oliverpaisley.com"
+baseurl = "elated-hodgkin-4fcd6f.netlify.com"
 canonifyurls = true
 paginate = 3
 theme = "hugo-alageek-theme"
 title = "Oliver Paisley"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.RProj.user", ".Rhistory"]
 
 [params]
 copyright = "© 2018 by Oliver Paisley"

@@ -5,35 +5,35 @@
 	<meta name="generator" content="Hugo 0.52" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Oliver Paisley - Oliver Joseph di Leonardo Paisley</title>
+    <title>Homepage - Oliver Paisley</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="referrer" content="no-referrer">
     <meta name="description" content="A personal website for Oliver Paisley.">
-    <meta property="og:site_name" content="Oliver Joseph di Leonardo Paisley" />
+    <meta property="og:site_name" content="Oliver Paisley" />
     <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="/" />
-    <meta property="og:title" content="Oliver Paisley" />
-    <meta property="og:image" content="/img/jester-white.png" />
+    <meta property="og:url" content="https://oliverpaisley.com/" />
+    <meta property="og:title" content="Homepage" />
+    <meta property="og:image" content="https://oliverpaisley.comimg/jester-white.png" />
     <meta property="og:description" content="A personal website for Oliver Paisley." />
 
     
         <meta property="twitter:site" content="@oliverjdpaisley">
     
 
-    <meta property="twitter:title" content="Oliver Paisley" />
-    <meta property="twitter:image" content="/img/jester-white.png" />
+    <meta property="twitter:title" content="Homepage" />
+    <meta property="twitter:image" content="https://oliverpaisley.comimg/jester-white.png" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:description" content="A personal website for Oliver Paisley." />
 
     
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="https://oliverpaisley.com/">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://oliverpaisley.comcss/main.css" />
 
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" integrity="sha256-w6kCMnFvhY2tI1OnsYR/rb5DG9yFGodJknvFZOkp51E=" crossorigin="anonymous" />
@@ -44,10 +44,10 @@
     
 
     <link rel="shortcut icon"
-        href="/img/jester-white.png">
+        href="https://oliverpaisley.com/img/jester-white.png">
 
     
-        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Oliver Joseph di Leonardo Paisley" />
+        <link href="https://oliverpaisley.com/index.xml" rel="alternate" type="application/rss+xml" title="Oliver Paisley" />
     
 
     <noscript>
@@ -63,29 +63,29 @@
         <div class="row">
             <div class="col-auto offset-md-1 d-none d-md-block">
                 
-                    <a href="/">
-                        <img class="ml-md-4 logo" src="/img/jester-white.png" alt="logo">
+                    <a href="https://oliverpaisley.com">
+                        <img class="ml-md-4 logo" src="https://oliverpaisley.com/img/jester-white.png" alt="logo">
                     </a>
                 
             </div>
             <div class="col-auto align-self-center mr-auto">
-                <a href="/">
-                    <h1 class="font-weight-bold name">Oliver Joseph di Leonardo Paisley</h1>
+                <a href="https://oliverpaisley.com">
+                    <h1 class="font-weight-bold name">Oliver Paisley</h1>
                 </a>
 
                 <ul class="nav nav-primary">
                     
                         <li class="nav-item">
-                            <a class="text-uppercase nav-link text-blog" href="/blog/">
+                            <a class="text-uppercase nav-link text-about" href="https://oliverpaisley.com/about/">
                                 
-                                Blog
+                                About
                             </a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="text-uppercase nav-link text-about" href="/about/">
+                            <a class="text-uppercase nav-link text-projects" href="https://oliverpaisley.com/projects/">
                                 
-                                About
+                                Projects
                             </a>
                         </li>
                     
@@ -94,13 +94,6 @@
                 </ul>
 
                 <ul class="nav nav-secondary">
-                    
-                        <li class="nav-item">
-                            <a class="text-uppercase font-weight-bold nav-link text-r-with-oliver" href="https://www.youtube.com/watch?v=yvGt1vQj8E0">
-                                
-                                R With Oliver
-                            </a>
-                        </li>
                     
                 </ul>
             </div>
@@ -116,9 +109,9 @@
                     <div class="markdown">
                         
     
-    <p>Hello, welcome to my website!</p>
+    <p>Hi, welcome to my website!</p>
 
-<p>If you are interested in learning R, check out my show <a href="https://www.youtube.com/watch?v=yvGt1vQj8E0">R With Oliver</a>.</p>
+<p>If you are interested in learning R, check out my show <a href="https://www.youtube.com/watch?v=yvGt1vQj8E0">R With Oliver</a> on YouTube.</p>
 
 
 
@@ -126,51 +119,6 @@
 
                     
 
-                    
-                        <div class="mx-0 mx-md-4 posts">
-                            
-                            
-                                <div class="page-heading">Latest posts</div>
-                                <ul class="px-0">
-                                    
-                                        <li class="groupby">Sep, 2014</li>
-                                        
-                                            <li class="pl-3 post-item">
-    <span class="meta">Sep 28, 2014</span>
-    <a href="/blog/creating-a-new-theme/"><span>Creating a New Theme</span></a>
-</li>
-
-                                        
-                                    
-                                        <li class="groupby">Apr, 2014</li>
-                                        
-                                            <li class="pl-3 post-item">
-    <span class="meta">Apr 02, 2014</span>
-    <a href="/blog/hugoisforlovers/"><span>Getting Started with Hugo</span></a>
-</li>
-
-                                        
-                                            <li class="pl-3 post-item">
-    <span class="meta">Apr 02, 2014</span>
-    <a href="/blog/goisforlovers/"><span>(Hu)go Template Primer</span></a>
-</li>
-
-                                        
-                                    
-                                        <li class="groupby">Mar, 2014</li>
-                                        
-                                            <li class="pl-3 post-item">
-    <span class="meta">Mar 10, 2014</span>
-    <a href="/blog/migrate-from-jekyll/"><span>Migrate to Hugo from Jekyll</span></a>
-</li>
-
-                                        
-                                    
-                                </ul>
-
-                                
-                            
-                        </div>
                     
                 </div>
             </div>
@@ -198,25 +146,23 @@
                     
 
                     
-                        <a href="https://github.com/oliverpaisley" target="_blank">
-                            <img class="icon" src="/img/github.svg" alt="github" />
-                        </a>
-                    
-
-                    
                         <a href="https://twitter.com/oliverjdpaisley" target="_blank">
-                            <img class="icon" src="/img/twitter.svg" alt="twitter" />
+                            <img class="icon" src="https://oliverpaisley.comimg/twitter.svg" alt="twitter" />
+                        </a>
+                    
+                    
+                    
+                        <a href="https://www.linkedin.com/in/oliverpaisley" target="_blank">
+                            <img class="icon" src="https://oliverpaisley.comimg/linkedin.svg" alt="linkedin" />
+                        </a>
+                    
+                    
+                    
+                        <a href="https://github.com/oliverpaisley" target="_blank">
+                            <img class="icon" src="https://oliverpaisley.comimg/github.svg" alt="github" />
                         </a>
                     
 
-                    
-
-                    
-
-                    
-                        <a href="/index.xml" class="mr-0">
-                            <img class="icon" src="/img/rss.svg" alt="rss" />
-                        </a>
                     
 
                     
