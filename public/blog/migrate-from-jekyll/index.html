@@ -12,9 +12,9 @@
     <meta property="og:site_name" content="Oliver Paisley" />
     <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://oliverpaisley.com/blog/migrate-from-jekyll/" />
+    <meta property="og:url" content="/blog/migrate-from-jekyll/" />
     <meta property="og:title" content="Migrate to Hugo from Jekyll" />
-    <meta property="og:image" content="https://oliverpaisley.com/img/jester-white.png" />
+    <meta property="og:image" content="/img/jester-white.png" />
     <meta property="og:description" content="A personal website for Oliver Paisley." />
 
     
@@ -22,17 +22,17 @@
     
 
     <meta property="twitter:title" content="Migrate to Hugo from Jekyll" />
-    <meta property="twitter:image" content="https://oliverpaisley.com/img/jester-white.png" />
+    <meta property="twitter:image" content="/img/jester-white.png" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:description" content="A personal website for Oliver Paisley." />
 
     
 
-    <link rel="canonical" href="https://oliverpaisley.com/blog/migrate-from-jekyll/">
+    <link rel="canonical" href="/blog/migrate-from-jekyll/">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://oliverpaisley.com/css/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" integrity="sha256-w6kCMnFvhY2tI1OnsYR/rb5DG9yFGodJknvFZOkp51E=" crossorigin="anonymous" />
@@ -43,7 +43,7 @@
     
 
     <link rel="shortcut icon"
-        href="https://oliverpaisley.com/img/jester-white.png">
+        href="/img/jester-white.png">
 
     
 
@@ -60,27 +60,27 @@
         <div class="row">
             <div class="col-auto offset-md-1 d-none d-md-block">
                 
-                    <a href="https://oliverpaisley.com/">
-                        <img class="ml-md-4 logo" src="https://oliverpaisley.com/img/jester-white.png" alt="logo">
+                    <a href="/">
+                        <img class="ml-md-4 logo" src="/img/jester-white.png" alt="logo">
                     </a>
                 
             </div>
             <div class="col-auto align-self-center mr-auto">
-                <a href="https://oliverpaisley.com/">
+                <a href="/">
                     <h1 class="font-weight-bold name">Oliver Paisley</h1>
                 </a>
 
                 <ul class="nav nav-primary">
                     
                         <li class="nav-item">
-                            <a class="text-uppercase nav-link text-about" href="https://oliverpaisley.com/about/">
+                            <a class="text-uppercase nav-link text-about" href="/about/">
                                 
                                 About
                             </a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="text-uppercase nav-link text-projects" href="https://oliverpaisley.com/projects/">
+                            <a class="text-uppercase nav-link text-projects" href="/projects/">
                                 
                                 Projects
                             </a>
@@ -159,7 +159,7 @@ With Jekyll, something that looked like</p>
 
 <h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
 
-<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://oliverpaisley.com/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="/overview/configuration/">Hugo configuration documentation</a> for details.</p>
 
 <h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
 
@@ -185,13 +185,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 <h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
 
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://oliverpaisley.com/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
 
 <p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
 
 <h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
 
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://oliverpaisley.com/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
 
 <h3 id="implementation">Implementation</h3>
 
@@ -336,19 +336,19 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
                     
                         <a href="https://twitter.com/oliverjdpaisley" target="_blank">
-                            <img class="icon" src="https://oliverpaisley.com/img/twitter.svg" alt="twitter" />
+                            <img class="icon" src="/img/twitter.svg" alt="twitter" />
                         </a>
                     
                     
                     
                         <a href="https://www.linkedin.com/in/oliverpaisley" target="_blank">
-                            <img class="icon" src="https://oliverpaisley.com/img/linkedin.svg" alt="linkedin" />
+                            <img class="icon" src="/img/linkedin.svg" alt="linkedin" />
                         </a>
                     
                     
                     
                         <a href="https://github.com/oliverpaisley" target="_blank">
-                            <img class="icon" src="https://oliverpaisley.com/img/github.svg" alt="github" />
+                            <img class="icon" src="/img/github.svg" alt="github" />
                         </a>
                     
 

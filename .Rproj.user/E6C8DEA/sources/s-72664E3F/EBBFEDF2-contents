@@ -1,5 +1,5 @@
 author = "Oliver Paisley"
-baseurl = "https://elated-hodgkin-4fcd6f.netlify.com/"
+baseurl = "/"
 canonifyurls = true
 paginate = 3
 theme = "hugo-alageek-theme"
